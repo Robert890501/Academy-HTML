@@ -1,0 +1,279 @@
+body {
+    max-width: 1440px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    background: #FFFFFF;
+    color: #AE7C78;
+}
+
+.mainMenu, section, footer {
+    
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+
+
+h1 {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 44px;
+    line-height: 59px;
+}
+
+h1 i {
+    font-style: italic;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 500;    
+}
+
+h3 {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+a {
+    color: #AE7C78;
+}
+
+.mainMenu ul, .footerMenu {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.mainMenu {
+    padding: 16px 120px 10px 120px; 
+    margin-top: 26px;
+    border-top: 1px solid #AE7C78;
+    border-bottom: 1px solid #AE7C78;
+    line-height: 2;
+    font-size: 16px;
+    
+}
+
+.mainBlock {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 81px;
+}
+
+.mainBlockText {
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.Btn {
+    width: 285px;
+    height: 80px;
+    background: #D89999;
+    border-radius: 40px;
+    color: #FFFFFF;
+}
+
+.advantage {
+    display: flex;
+    justify-content: space-between
+}
+
+.popularInfo {
+    display: flex;
+    justify-content: space-between
+}
+
+.popular .popularHeader {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    letter-spacing: 0.02em;
+}
+
+.info p:last-of-type {
+    font-weight: 500;
+    font-size: 24px
+}
+
+.contacts {
+    background: url("../img/background/map.jpg") 
+}
+
+.catalog {
+    display: flex;
+    justify-content: space-between; 
+}
+
+
+.catalog .catalogCards1 {
+    background-image: url("../img/card/sammi-sP5CaWEN7Do-unsplash\ 1.jpg");
+}
+
+.catalog .catalogCards2 {
+    background-image: url("../img/card/fresh-beautiful-peony-flowers-vase 1.jpg");
+}
+
+.catalog .catalogCards3 {
+    background-image: url("../img/card/alyssa-strohmann-tnpr-hPOta0-unsplash 1.jpg");
+}
+
+.catalog div {
+    width: 387px;
+    height: 442px;    
+    background: rgba(174, 124, 120, 0.6);
+    border-radius: 10px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.catalog h2 {
+    padding-top: 183px;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px; 
+    letter-spacing: 0.02em;
+}
+
+.discont {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: #FFFFFF;
+    background: #AE7C78;
+    display: flex;
+    padding: 0 0;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.discontBlock h2 {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 44px;
+    letter-spacing: 0.02em;
+}
+
+.steps h2 {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.stepsBloks {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.news h2 {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    letter-spacing: 0.02em;
+}
+
+.news p {
+    font-size: 24px;
+}
+
+.news {
+    display: flex;
+    justify-content: space-between;
+}
+
+.network {
+    display: flex;
+    justify-content:left;
+}
+
+.newsFoto {
+    display: flex;
+    justify-content: space-between;
+}
+
+.review h2 {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+.reviewBlock {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.reviewCard {
+    width: 300px;
+}
+
+.contacts h2 {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    display: flex;
+    align-items: center;
+}
+
+.contacts {
+    height: 644px;
+}
+
+.contactsInfo {
+    width: 386px;
+    height: 520px;
+    background: #F7FAFC;
+    box-shadow: 0px 4px 40px rgba(217, 217, 217, 0.3);
+    border-radius: 12px;
+    padding: 0 0;
+    margin-top: 52px;
+    margin-left: 222px;
+}
+
+.contactsInfo p:nth-of-type(even) {
+    font-weight: 500;
+}
+
+.footerMenu a {
+    color:#FFFFFF;
+}
+
+footer {
+    background: #AE7C78;
+    display: flex;
+    justify-content: left;
+    padding: 0 0;
+    height: 97px;
+}
+
+footer .footerLogo {
+    width: 100px;
+    height: 32.28px;    
+    margin-left: 125px;
+    margin-top: 24px;
+}
+
+.footerMenu {
+    margin-left: 103px;
+    margin-top: 30px;
+    width: 795px;
+}
